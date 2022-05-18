@@ -1,0 +1,6 @@
+_set = set("Python Programming")
+_set2 = set([2, 4, 6, 8, 10, 12])
+_set3 = set((1, 3, 5, 7, 9))
+print(_set)
+_set2.update(_set3)
+print(_set2)
